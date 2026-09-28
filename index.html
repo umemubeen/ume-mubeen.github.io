@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Ume Mubeen — Computer Engineering graduate, Web Developer, SEO and Digital Marketing professional.">
+<title>Ume Mubeen | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b1f3a;--blue:#1769aa;--purple:#6b35a8;--text:#1f2937;--muted:#64748b;--bg:#f7f9fc;--card:#fff;--line:#e5eaf1}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Arial,sans-serif;color:var(--text);background:var(--bg);line-height:1.65}
+a{text-decoration:none;color:inherit}
+nav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav-inner{max-width:1100px;margin:auto;padding:16px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:800;color:var(--navy);font-size:20px}.logo span{color:var(--blue)}
+.nav-links{display:flex;gap:22px;font-size:14px;font-weight:600;color:#475569}
+.nav-links a:hover{color:var(--blue)}
+.hero{background:linear-gradient(135deg,#eef6ff,#fff 55%,#f5efff);padding:95px 24px 80px}
+.hero-inner{max-width:1100px;margin:auto;display:grid;grid-template-columns:1.5fr 1fr;gap:50px;align-items:center}
+.badge{display:inline-block;padding:7px 13px;border-radius:30px;background:#e8f2fc;color:var(--blue);font-size:13px;font-weight:700;margin-bottom:18px}
+h1{font-size:clamp(42px,7vw,72px);line-height:1.05;color:var(--navy);letter-spacing:-2px;margin-bottom:18px}
+.hero h2{font-size:22px;color:var(--blue);margin-bottom:18px}
+.hero p{color:#526174;max-width:680px;font-size:17px}
+.buttons{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.btn{padding:12px 18px;border-radius:10px;font-weight:700;font-size:14px;display:inline-block}
+.primary{background:var(--navy);color:white}.secondary{background:white;border:1px solid #cbd5e1;color:var(--navy)}
+.hero-card{background:white;border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:0 20px 50px rgba(15,35,65,.10)}
+.hero-card .initials{width:86px;height:86px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--purple));color:white;display:flex;align-items:center;justify-content:center;font-size:30px;font-weight:800;margin-bottom:20px}
+.hero-card h3{font-size:21px;color:var(--navy);margin-bottom:5px}.hero-card p{font-size:14px}
+section{max-width:1100px;margin:auto;padding:80px 24px}
+.section-title{font-size:31px;color:var(--navy);margin-bottom:10px}.section-sub{color:var(--muted);margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px}
+.card h3{color:var(--navy);margin-bottom:8px;font-size:18px}.card p,.card li{font-size:14px;color:#59677a}.card ul{padding-left:18px}
+.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{background:white;border:1px solid var(--line);padding:9px 13px;border-radius:30px;font-size:13px;font-weight:600;color:#334155}
+.timeline{border-left:2px solid #dbe6f1;margin-left:7px;padding-left:25px}.item{position:relative;margin-bottom:35px}.item:before{content:"";position:absolute;left:-33px;top:6px;width:13px;height:13px;border-radius:50%;background:var(--blue);border:3px solid #e7f1fa}.meta{font-size:13px;color:var(--muted);margin-bottom:6px}.item h3{color:var(--navy);font-size:19px}
+.project{display:grid;grid-template-columns:1fr 1fr;gap:25px;align-items:center}.project img{width:100%;border-radius:14px;border:1px solid var(--line);display:block}.project + .project{margin-top:55px}.project-text h3{font-size:25px;color:var(--navy);margin-bottom:10px}.project-text p{color:#59677a;margin-bottom:12px}
+.cert-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.cert img{width:100%;border-radius:12px;border:1px solid var(--line)}
+.contact{background:var(--navy);color:white;border-radius:22px;padding:45px}.contact h2{font-size:32px;margin-bottom:10px}.contact p{color:#c9d5e5}.contact a{color:#9bd0ff}
+footer{text-align:center;padding:30px;color:var(--muted);font-size:13px}
+@media(max-width:800px){.nav-links{display:none}.hero-inner,.project{grid-template-columns:1fr}.grid,.cert-grid{grid-template-columns:1fr}.hero{padding-top:60px}section{padding:60px 20px}h1{font-size:48px}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="nav-inner">
+    <a class="logo" href="#home">Ume<span>Mubeen</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="hero-inner">
+    <div>
+      <div class="badge">Computer Engineering • Web • Digital</div>
+      <h1>Ume Mubeen</h1>
+      <h2>Web Developer & Digital Marketing Professional</h2>
+      <p>Computer Engineering graduate with practical experience in web development, SEO, digital marketing, social media management, embedded systems, IoT and wireless sensing.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#projects">View My Work</a>
+        <a class="btn secondary" href="https://www.linkedin.com/in/engr-ume-mubeen-239871413/" target="_blank">LinkedIn Profile</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="initials">UM</div>
+      <h3>Computer Engineering Graduate</h3>
+      <p>COMSATS University Islamabad • BS Computer Engineering • 2022–2026</p>
+      <br>
+      <p><strong>Focus:</strong> Web Development, SEO, Digital Marketing, IoT & Embedded Systems</p>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <p class="section-sub">A combination of engineering, software and digital skills.</p>
+  <div class="card">
+    <p>I am a Computer Engineering graduate with hands-on experience in web development, SEO, digital marketing, social media management, embedded systems, and IoT. My current professional work combines technical web skills with digital growth activities, including website development, content optimization, keyword research, Google Search Console, and social media management.</p>
+    <br>
+    <p>My academic work has given me practical exposure to Python, C++, MATLAB, embedded systems, wireless technologies, signal processing and data analysis. My Final Year Project focused on contactless heartbeat detection using WiFi Channel State Information (CSI) signals.</p>
+    <br>
+    <p>I am interested in opportunities related to Web Development, Software Development, IoT, Embedded Systems, Digital Marketing, SEO and other technology-focused roles.</p>
+  </div>
+</section>
+
+<section id="experience">
+  <h2 class="section-title">Experience</h2>
+  <p class="section-sub">Professional and internship experience.</p>
+  <div class="timeline">
+    <div class="item">
+      <div class="meta">Jul 2026 – Present • Islamabad</div>
+      <h3>Web Developer & Digital Marketing — OpenDevSol</h3>
+      <ul>
+        <li>Website development and website content support.</li>
+        <li>Keyword research and SEO activities.</li>
+        <li>Google Search Console and indexing-related tasks.</li>
+        <li>Content optimization and internal linking support.</li>
+        <li>Social media management for digital brands and projects.</li>
+      </ul>
+    </div>
+    <div class="item">
+      <div class="meta">Summer 2026 • 6-week internship</div>
+      <h3>Intern — Volunteer Management Department, Alkhidmat Foundation Pakistan</h3>
+      <ul>
+        <li>Completed a structured six-week internship program.</li>
+        <li>Participated in professional development, assignments and digital learning activities.</li>
+        <li>Developed communication, teamwork, personal branding and career-readiness skills.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <h2 class="section-title">Education</h2>
+  <p class="section-sub">Academic foundation.</p>
+  <div class="grid">
+    <div class="card">
+      <h3>COMSATS University Islamabad</h3>
+      <p><strong>BS Computer Engineering</strong></p>
+      <p>Sep 2022 – Jun 2026</p>
+      <p>Grade: 3.12 / 4.00</p>
+    </div>
+    <div class="card">
+      <h3>Relevant Areas</h3>
+      <p>Programming, Embedded Systems, IoT, Wireless Technologies, Signal Processing, Data Analysis and Engineering Tools.</p>
+    </div>
+    <div class="card">
+      <h3>Final Year Project</h3>
+      <p>Contactless Heartbeat Detection Using WiFi CSI Signals.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Projects & Selected Work</h2>
+  <p class="section-sub">Academic engineering project plus practical digital work.</p>
+
+  <div class="project">
+    <div class="project-text">
+      <h3>Contactless Heartbeat Detection Using WiFi CSI Signals</h3>
+      <p>Developed a contactless heartbeat detection system using WiFi Channel State Information (CSI) signals.</p>
+      <ul>
+        <li>CSI data collection using ESP32-based hardware.</li>
+        <li>Preprocessing, visualization and analysis.</li>
+        <li>Signal-processing techniques for heartbeat-related patterns.</li>
+        <li>Python and embedded hardware for experimentation.</li>
+      </ul>
+    </div>
+    <div>
+      <img src="assets/comsats-fyp-certificate.jpg" alt="COMSATS FYP certificate">
+    </div>
+  </div>
+
+  <div class="project">
+    <div>
+      <img src="assets/wh-solutions-work.png" alt="WH Solutions digital work">
+    </div>
+    <div class="project-text">
+      <h3>WH Solutions — Digital Marketing Work</h3>
+      <p>Contributed to professional digital content and promotional communication for WH Solutions, supporting social media and digital marketing activities.</p>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="project-text">
+      <h3>OpenLink.pk — Digital Identity Marketing</h3>
+      <p>Worked on promotional content and digital marketing for OpenLink.pk, a digital identity / NFC visiting card concept for sharing contact details, social links, websites and business information.</p>
+    </div>
+    <div>
+      <img src="assets/openlink-work.png" alt="OpenLink digital card work">
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+  <p class="section-sub">Technical and digital skills.</p>
+  <div class="skills">
+    <span class="skill">Web Development</span><span class="skill">SEO</span><span class="skill">Digital Marketing</span>
+    <span class="skill">Social Media Management</span><span class="skill">Keyword Research</span><span class="skill">Python</span>
+    <span class="skill">C++</span><span class="skill">MATLAB</span><span class="skill">Embedded Systems</span>
+    <span class="skill">IoT</span><span class="skill">Wireless Technologies</span><span class="skill">Signal Processing</span>
+    <span class="skill">Data Collection</span><span class="skill">Data Analysis</span><span class="skill">Google Search Console</span>
+    <span class="skill">WordPress</span><span class="skill">AutoCAD</span>
+  </div>
+</section>
+
+<section id="certificates">
+  <h2 class="section-title">Certificates & Recognition</h2>
+  <p class="section-sub">Selected certificates supporting my academic and professional journey.</p>
+  <div class="cert-grid">
+    <div class="cert"><img src="assets/alkhidmat-award.jpg" alt="Alkhidmat Achievement Award"></div>
+    <div class="cert"><img src="assets/comsats-fyp-certificate.jpg" alt="COMSATS Career Expo FYP certificate"></div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="contact">
+    <h2>Let’s Connect</h2>
+    <p>I’m open to technology-focused opportunities in Web Development, Software Development, IoT, Embedded Systems, SEO and Digital Marketing.</p>
+    <br>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/engr-ume-mubeen-239871413/" target="_blank">linkedin.com/in/engr-ume-mubeen-239871413</a></p>
+  </div>
+</section>
+
+<footer>© 2026 Ume Mubeen • Professional Portfolio</footer>
+</body>
+</html>
